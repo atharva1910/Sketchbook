@@ -18,7 +18,7 @@ def draw():
     point(x,y,z)
     hu += 1
     if (hu >= 255):
-        saveFrame()
+        saveFrame("####.png")
         hu = 0
     print (hu)
     
